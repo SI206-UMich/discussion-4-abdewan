@@ -21,7 +21,7 @@ class Rectangle():
     # YOUR CODE HERE
 
     def __str__(self):
-        return "A rectangle with width " + self.width + " and height " + self.height
+        return "A rectangle with width " + str(self.width) + " and height " + str(self.height)
 
 
 
@@ -49,7 +49,7 @@ class Rectangle():
 
     def area():
         if (self.verify_input):
-            return width * height
+            return self.width * self.height
         else:
             return "Invalid input"
 
