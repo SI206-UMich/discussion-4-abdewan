@@ -33,7 +33,7 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def verify_input():
+    def verify_input(self):
         if width > 0 and height > 0:
             return True
         return False
@@ -47,7 +47,7 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def area():
+    def area(self):
         if (self.verify_input):
             return self.width * self.height
         else:
@@ -62,7 +62,7 @@ class Rectangle():
 
     # YOUR CODE HERE
     
-    def perimeter():
+    def perimeter(self):
         if (self.verify_input):
             return (2 * self.width) + (2 * self.height)
         else:
